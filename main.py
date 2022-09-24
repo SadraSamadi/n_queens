@@ -6,7 +6,7 @@ from n_queens import NQueens
 def main():
     # print('.: N-Queens Problem :.')
     # size = int(input('Please enter the size of board: '))
-    for s in range(4,5):
+    for s in range(4,10):
         size = s
         # print_solutions = input('Do you want the solutions to be printed (Y/N): ').lower() == 'y'
         print_solutions = False
